@@ -1,5 +1,7 @@
 import random
 ma_list =["abakar","oumar","nassir","idriss","clotilde","hissen","djalabi","mariam","sonia","yves","korom","grene","kevin"]
+#this will contain an occurence of our list
+maListOcc = ma_list
 #this list will contain our random list
 random_list = None
 groupe = 1
@@ -14,3 +16,4 @@ for i in ma_list:
     print(random_list)
     print("______________________________")
     groupe += 1
+print maListOc
